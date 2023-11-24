@@ -1,0 +1,76 @@
+body {
+  font-family: Consolas, sans-serif;
+  background: #794141;
+  background: linear-gradient(110deg, #eb4559 50%, #f78259 50%);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap; /* Change to row wrap */
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-top: 100px;
+   /* Adjust margin as needed for spacing */
+}
+
+
+.form-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align the form to the left */
+  justify-content: center;
+  height: 100vh;
+  flex-basis: 50%; /* Take up 50% of the available width */
+}
+
+form {
+  width: 500px; /* Adjust as needed */
+  border: 2px solid #ffff; /* Dark black border */
+  padding: 20px;
+  margin: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Shadow added */
+  background-color: #ffffff; /* Set the background color to white */
+  margin-left: 350px;
+}
+
+label b {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+input {
+  width: calc(100% - 20px); /* Adjust the width as needed */
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  margin-right:  20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+#submit {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #282c34;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  opacity: 0.9;
+}
